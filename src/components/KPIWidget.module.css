@@ -1,0 +1,47 @@
+.kpiWidget {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.icon {
+  color: var(--color-blue);
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.label {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin: 0 0 0.5rem 0;
+}
+
+.value {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.trend {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.trend.up {
+  color: var(--color-green);
+}
+
+.trend.down {
+  color: var(--color-red);
+}
+
+.trend.neutral {
+  color: var(--color-amber);
+}
